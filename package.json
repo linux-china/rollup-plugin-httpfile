@@ -1,0 +1,28 @@
+{
+  "name": "rollup-plugin-httpfile",
+  "version": "0.1.0",
+  "description": "Rollup httpfile plugin to support import http file for HTTP Request/GraphQL request",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "type": "module",
+  "scripts": {
+    "bundle-test": "rollup -c",
+    "test": "rollup -c; node dist/hello.js"
+  },
+  "keywords": [
+    "rollup-plugin",
+    "httpfile"
+  ],
+  "author": "linux_china <libing.chen@gmail.com>",
+  "repository": "https://github.com/linux-china/rollup-plugin-httpfile",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.77.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "volta": {
+    "node": "18.7.0"
+  }
+}
