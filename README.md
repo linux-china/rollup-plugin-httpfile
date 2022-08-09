@@ -90,4 +90,4 @@ Accept: text/csv
 # References
 
 * Rollup Plugin Overview: https://rollupjs.org/guide/en/#plugins-overview
-* esbuild-plugin-httpfile: esbuild plugin for httpfile https://github.com/linux-china/esbuild-plugin-httpfile
+* esbuild-plugin-httpfile: esbuild plugin for httpfile https://github.com/servicex-sh/esbuild-plugin-httpfile
