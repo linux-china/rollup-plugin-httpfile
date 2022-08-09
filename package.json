@@ -14,7 +14,7 @@
     "httpfile"
   ],
   "author": "linux_china <libing.chen@gmail.com>",
-  "repository": "https://github.com/linux-china/rollup-plugin-httpfile",
+  "repository": "https://github.com/servicex-sh/rollup-plugin-httpfile",
   "license": "ISC",
   "devDependencies": {
     "rollup": "^2.77.2"
