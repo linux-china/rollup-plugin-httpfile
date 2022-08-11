@@ -1,13 +1,12 @@
 {
   "name": "rollup-plugin-httpfile",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Rollup httpfile plugin to support import http file for HTTP Request/GraphQL request",
   "main": "index.js",
   "types": "index.d.ts",
-  "type": "module",
   "scripts": {
     "bundle-test": "rollup -c",
-    "test": "rollup -c; node dist/hello.js"
+    "test": "rollup -c; mv dist/hello.js dist/hello.mjs; node dist/hello.mjs"
   },
   "keywords": [
     "rollup-plugin",
