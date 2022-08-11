@@ -6,7 +6,7 @@ import {parseHttpfile} from "./httpfile";
 /**
  * build rollup httpfile plugin
  * @param {boolean=} verbose - enable verbose logging
- * @returns {{name: string, resolveId: function, load: function}} esbuild plugin object
+ * @returns {{name: string, resolveId: function, load: function}} rollup plugin object
  */
 export default function httpfileResolverPlugin(verbose) {
     return {
