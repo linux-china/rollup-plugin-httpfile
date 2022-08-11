@@ -1,14 +1,14 @@
-import path from "node:path";
-import fs from "node:fs";
+const path = require("path");
+const fs = require("fs");
 
-import {parseHttpfile} from "./httpfile";
+const {parseHttpfile} = require("./httpfile");
 
 /**
  * build rollup httpfile plugin
  * @param {boolean=} verbose - enable verbose logging
  * @returns {{name: string, resolveId: function, load: function}} rollup plugin object
  */
-export default function httpfileResolverPlugin(verbose) {
+function httpfileResolverPlugin(verbose) {
     return {
         name: 'httpfile-resolver', // this name will show up in warnings and errors
         resolveId(source, importer) {
@@ -45,3 +45,5 @@ export default function httpfileResolverPlugin(verbose) {
         }
     };
 }
+
+module.exports = httpfileResolverPlugin;

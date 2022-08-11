@@ -1,4 +1,4 @@
-import httpfileResolverPlugin from "./index"
+const httpfileResolverPlugin = require("./index");
 
 /**
  * @type {import("rollup/dist/rollup").RollupOptions}
@@ -11,4 +11,4 @@ const config = {
     ],
 }
 
-export default config;
+module.exports = config;
